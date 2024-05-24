@@ -7,11 +7,18 @@
 html {
     /* đổi font chữ */
     font-family: Helvetica,Arial,sans-serif;
+    
 }
 
 #main {
     margin: 0 auto;
     height: 1000px;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 0px),
+        linear-gradient(90deg, rgba(185, 75, 75, 0.05) 1px, transparent 0px);
+    background-position: 0px -1px, -1px 0px, 0px 0px, 0px 0px;
+    background-size: 1px 51px, 51px 1px, 0px 0px, 0px 0px;
+    background-color: transparent;
 }
 
 #header {
@@ -90,4 +97,53 @@ html {
 #login {
     border: 1px #fff solid !important;
     border-radius: 50px;
+}
+
+#banner {
+    position: relative;
+    background-color: #c1392b;
+    height: 700px;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    z-index: -1;
+    margin-top: 60px;
+    justify-content: center; /* Căn nội dung theo chiều ngang */
+    align-items: center;
+    display: flex;
+}
+
+#para {
+    color: #fff;
+    /* margin-top: 100px; */
+    text-align: center; 
+}
+
+.big-para {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#order-div {
+    background-color: #fff;
+    border-radius: 50px;
+    /* width: 200px; */
+    margin: 20px 300px;
+    text-align: center;
+    z-index: 999;
+}
+
+#order-div a {
+    color: red;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 18px;
+    
+}
+
+#order-div a:hover {
+    background-color: #fff;
+    color: #c1392b;
+    border-radius: 50px; 
+    border:5px;
+    /* width: 80%; */
 }
