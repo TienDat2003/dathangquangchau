@@ -110,6 +110,7 @@ html {
     justify-content: center; /* Căn nội dung theo chiều ngang */
     align-items: center;
     display: flex;
+    margin-bottom: 220px;
 }
 
 #para {
@@ -157,3 +158,149 @@ html {
     top: 760px;
     height: 20px;
 }
+
+#content1 {
+    justify-content: center; /* Căn nội dung theo chiều ngang */
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.content-header {
+    justify-content: center; /* Căn nội dung theo chiều ngang */
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #30373b;
+    margin-bottom: 40px;
+}
+
+.content-header h2 {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.content-header h5 {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+#content1-sub-para {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+#content1-body {
+    margin-left: 260px;
+    
+}
+
+.sub-content1 {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.sub-content1 p {
+    color: #30373b;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#service {
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center; /* Căn nội dung theo chiều ngang */
+    margin-bottom: 80px;
+}
+
+.sub-service {
+    /* display: inline-block; */
+    text-align: center;
+    margin: 20px;
+}
+
+.sub-service h4 {
+    margin: 10px;
+    color: #30373b;
+}
+
+.sub-service p {
+    line-height: 1.2;
+    font-weight: 350;
+    color: #30373b;
+}
+
+#price-list {
+    width: 70%;
+    margin: auto;
+}
+
+#content-body {
+    /* display: flex; */
+    width: 100%;
+    border: 1px;
+    /* padding: 20px; */
+    box-shadow: 0 0 10px 1px #888;
+}
+
+.price-content {
+    margin: 40px;
+}
+
+.price-order {
+    display: flex;
+    color: #fff;
+    background-color: #c1392b;
+    margin-bottom: 10px;
+}
+
+.price-order h3 {
+    font-size: 25px;
+    font-weight: 300;
+    padding: 8px;
+}
+
+.price-order p {
+    margin: auto 0;
+}
+
+.price-para p {
+    margin: 10px 0px;
+}
+
+span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #c1392b;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.price-table {
+    
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    height: 40px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(150, 148, 148);
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
